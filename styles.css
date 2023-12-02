@@ -1,0 +1,41 @@
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%vh;
+}
+
+ul{
+   display:flex; 
+   list-style:none;
+   text-align: center;
+   justify-content: space-between;
+   background-color: white;
+}
+li{
+    padding: 5px 100px 5px;
+}
+.btnCls{
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: solid black;
+    border-radius: 5px;
+    padding: 2px 10px;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: aliceblue;
+    padding: 2px 10px 2px;
+    border-radius: 6.26px;
+    
+}
